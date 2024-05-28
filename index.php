@@ -91,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $mail->Host	 = 'smtp.gmail.com;';				 
                     $mail->SMTPAuth = true;							 
                     $mail->Username = 'shathaalbajly@gmail.com';				 
-                    $mail->Password = 'etnj qetu zccs oecf';					 
+                    $mail->Password = '';					 
                     $mail->SMTPSecure = 'tls';							 
                     $mail->Port	 = 587; 
                 
@@ -161,7 +161,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $mail->Host	 = 'smtp.gmail.com;';				 
                 $mail->SMTPAuth = true;							 
                 $mail->Username = 'shathaalbajly@gmail.com';				 
-                $mail->Password = 'etnj qetu zccs oecf';					 
+                $mail->Password = '';					 
                 $mail->SMTPSecure = 'tls';							 
                 $mail->Port	 = 587; 
             
